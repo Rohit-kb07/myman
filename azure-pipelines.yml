@@ -1,7 +1,7 @@
 trigger : 
   - master
 pool : 
-   name :Default
+   name : Default
 steps :
   - script : mvn clean install
        displayName:'clean instal'
