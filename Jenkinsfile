@@ -7,7 +7,7 @@ jdk 'JDK'
 stages {
 stage('Checkout') {
 steps {
-git branch: ‘master’, url: 'https://github.com/Thushardm/Maven-hello-world.git'
+git branch: ‘master’, url: 'https://github.com/Rohit-kb07/myman.git'
 }
 }
 stage('Build') {
