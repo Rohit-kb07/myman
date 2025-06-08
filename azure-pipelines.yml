@@ -1,9 +1,9 @@
 trigger : 
   - master
 pool : 
-   name : Default
-steps :
-  - script : mvn clean install
-       displayName : 'clean instal'
-  - script : java -jar target/myman-1.0-SNAPSHOT.jar 
-       displayName : 'run pipelin'
+   name: Default
+steps:
+  - script: mvn clean install
+    displayName: 'clean instal'
+  - script: java -jar target/myman-1.0-SNAPSHOT.jar 
+    displayName : 'run pipelin'
